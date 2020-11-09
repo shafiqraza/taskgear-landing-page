@@ -742,21 +742,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: relative;
   color: #ffffff; }
   .service .service-icon.color-1 {
-    background-color: #6fe7dd;
-    -webkit-box-shadow: 0 2px 10px 0 rgba(111, 231, 221, 0.3);
-    box-shadow: 0 2px 10px 0 rgba(111, 231, 221, 0.3); }
+    background-color: #b2f5f0;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(171, 243, 237, 0.3);
+    box-shadow: 0 2px 10px 0 rgba(149, 243, 235, 0.3); }
   .service .service-icon.color-2 {
-    background-color: #ffc93c;
-    -webkit-box-shadow: 0 2px 10px 0 rgba(255, 201, 60, 0.3);
-    box-shadow: 0 2px 10px 0 rgba(255, 201, 60, 0.3); }
+    background-color: #77f7;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(255, 218, 124, 0.3);
+    box-shadow: 0 2px 10px 0 rgba(247, 216, 139, 0.3); }
   .service .service-icon.color-3 {
-    background-color: #f73859;
+    background-color: #f590a1;
     -webkit-box-shadow: 0 2px 10px 0 rgba(247, 56, 89, 0.3);
-    box-shadow: 0 2px 10px 0 rgba(247, 56, 89, 0.3); }
+    box-shadow: 0 2px 10px 0 rgba(243, 153, 168, 0.3); }
   .service .service-icon.color-4 {
-    background-color: #407BFF;
-    -webkit-box-shadow: 0 2px 10px 0 rgba(64, 123, 255, 0.3);
-    box-shadow: 0 2px 10px 0 rgba(64, 123, 255, 0.3); }
+    background-color: #8daff7;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(149, 182, 255, 0.3);
+    box-shadow: 0 2px 10px 0 rgba(145, 175, 238, 0.3); }
   .service .service-icon > svg {
     position: absolute;
     top: 50%;
@@ -1400,3 +1400,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .site-footer .social li a:hover {
         background: #739eff;
         color: #ffffff; }
+
+        .feature-img-box{
+          position: relative;
+        }
+        .feature-img{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
